@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "target": "ES6",
+    "types": [
+      "@types/testing-library__jest-dom",
+      "jest",
+      "node",
+      "react",
+      "vite/client"
+    ],
+    "baseUrl": ".",
+    "rootDir": "./src",
+    // "paths": {
+    //   "@src/*": ["./*"],
+    // }
+  },
+  "exclude": ["node_modules", ".eslintrc.js"],
+  "include": ["*.ts"],
+}
