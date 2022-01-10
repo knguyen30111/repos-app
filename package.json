@@ -11,6 +11,10 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
   },
+  "engines": {
+    "node": "16.6.1",
+    "pnpm": ">=6"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
