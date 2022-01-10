@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: process.env.FANP_DOMAIN,
-  withCredentials: true,
+  baseURL: 'https://api.github.com',
 });
 
 instance.defaults.headers.common['Accept'] = 'application/json';
