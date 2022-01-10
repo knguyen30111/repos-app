@@ -3,6 +3,7 @@
     - [Setting up pnpm](#setting-up-pnpm)
     - [Setup the project](#setup-the-project)
 - [Technologies](#technologies)
+- [Not done](#not-done)
 ## Installation
 We are using `16.6.1` version for node, We strongly recommand you to use [nvm](https://github.com/nvm-sh/nvm) to manage multiple node version,
 
@@ -63,3 +64,6 @@ After you ran the above command, it will automatically setup a server pointing t
 | Linting                 | ESlint                                 | Airbnb Extension                               |
 | Compile / Building      | Vite / tsc                             |                                                | 
 | API				              | Node                      						 | node.js (16.6.1 LTS)                           |
+
+## Not done
+- Write the unit tests
