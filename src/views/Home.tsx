@@ -89,4 +89,5 @@ export default connect(
     github: state.github,
   }),
   { fetchRepositories, setUserName }
+  // @ts-ignore
 )(Home);

@@ -10,7 +10,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "jsx": "react",
     "module": "CommonJS",
     "moduleResolution": "Node",
@@ -37,6 +37,6 @@
     // }
   },
   "compileOnSave": true,
-  "exclude": ["node_modules", ".eslintrc.js"],
-  "include": ["*.ts"],
+  "exclude": ["node_modules", ".eslintrc.js", "build"],
+  "include": ["./src"],
 }
