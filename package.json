@@ -11,8 +11,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.5",
     "@types/react": "^17.0.38",
@@ -54,7 +52,6 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "faker": "^6.6.6",
     "jest": "^27.4.5",
-    "msw": "^0.36.3",
     "node-fetch": "^2.6.6",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.2",
