@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
+    "clean": "rimraf ./build && rimraf ./lib && rimraf ./tsconfig.tsbuildinfo",
     "serve": "vite preview",
     "test": "jest",
     "test-watch": "jest --watch",
@@ -27,6 +28,7 @@
     "react-router-dom": "^6.2.1",
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
+    "rimraf": "^3.0.2",
     "vite-tsconfig-paths": "^3.3.17"
   },
   "devDependencies": {
