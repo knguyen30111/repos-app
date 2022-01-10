@@ -9,6 +9,11 @@ export const setRepositories = (repos: Repository[]): GithubActions => ({
   repos,
 });
 
+export const setUserName = (userName: string): GithubActions => ({
+  type: GithubTypes.SET_USER_NAME,
+  userName,
+});
+
 type GithubThunkResult<ReturnType = void> = ThunkAction<
   ReturnType,
   GithubState,
